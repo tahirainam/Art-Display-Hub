@@ -1,0 +1,25 @@
+/* contact.css */
+
+.contact-container {
+    background-color: rgb(32, 32, 28);
+    position: relative;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0.8;
+    animation: moveStars 2s linear infinite;
+}
+
+@keyframes moveStars {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}

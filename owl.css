@@ -1,22 +1,98 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
+
 body {
-    background-color: rgba(160, 30, 30, 0.822);
+    background-color: rgba(6, 53, 35, 0.822);
 }
 .container {
-    width: 80%;
-    background-color: brown;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
+.content {
+    padding: 30px;
+    width: 90%;
+}
+
 .sidebar {
+    background-color: rgb(131, 128, 128);
+    text-align: left;
+    padding: 10px;
+    width: 15%;
+    height: 60vh;
+    bottom: 20%;
+    margin-top:30px;
+    margin-left: 10px;
+    position: fixed;
+    border-right: 4px solid #3d3434;
+    border-radius: 10px;
+}
+ul {
+    
+    list-style: none;
+}
+li {
+    margin: 10px;
+    padding: 15px;
+    /*background-color: rgb(211, 173, 173);*/
+}
+li a {
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    margin: 20px;  
+}
+li:hover {
     background-color: aquamarine;
 }
-.intro {
-    background-color: blue;
+.home, .image-container, .about-container, .contact-container {
+    height: 100vh;
+    align-items: center;
+    padding: 10px;
+}
+.home {
+    /*background-color: blue;*/
+    width: 70%;
+    margin-left: auto;
+}
+.image-container {
+    /*background-color: rgb(14, 119, 96);*/
+    width: 70%;
+    margin-left: auto;
+}
+.about-container{
+    /*background-color: rgb(19, 101, 139);*/
+    width: 70%;
+    margin-left: auto;
+}
+.contact-container {
+    /*background-color: rgb(128, 165, 41);*/
+    width: 70%;
+    margin-left: auto;
 }
 .footer {
-    background-color: azure;
+    /*background-color: rgb(110, 109, 110);*/
+    width: 90%;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+.social-icons {
+    text-align: center;
+    margin: 5px;
+}
+.social-icons a {
+    color: rgb(51, 26, 99);
+    padding: 5px;
+}
+.social-icons a:hover {
+    color: #696667ff;
 }
